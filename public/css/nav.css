@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.header {
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+    display: flex;
+    background-color: black;
+    padding: 22px 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: rgb(218, 3, 3);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.logo span{
+    color: white;
+}
+
+.nav-right{
+    position: absolute;
+    right:10%;
+}
+
+.header .nav-right a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.active:hover{
+    background-color: blue;
+    color: white;
+}
+
+header a.active:hover{
+    background-color: blue;
+    color: white;
+}
+
+.header a.active1:hover {
+    background-color: red;
+    color: white;
+}
+
+.header a.active2:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.header a.active3:hover {
+    background-color: chartreuse;
+    color: white;
+}
